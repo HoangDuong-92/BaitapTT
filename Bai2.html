@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng các số lẻ trong mảng</title>
+</head>
+<body>
+  <script>
+       const num = window.prompt();
+      let array = [];
+      let  tong = 0 ;
+      for (let i =1; i < num.length;i++){
+          if (num[i]% 2 == 1){
+              tong = tong + num[i];
+          }
+      }
+      document.write(tong + "các số lẻ");
+  </script>
+</body>
+</html>
